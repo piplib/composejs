@@ -1,0 +1,21 @@
+@import "./conponents/layouts.scss";
+
+@import "./conponents/button.scss";
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    width: 100vw;
+    height: 100vh;
+}
+
+
+.noselect {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
